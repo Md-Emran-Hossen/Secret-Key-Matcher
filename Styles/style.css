@@ -152,67 +152,65 @@ h5 {
 /* media query for small device */
 @media screen and (max-width: 320px) {
     .container {
-        width: 95%;
-        height: auto;
+        width: 300px;
+        height: 1100px;
         background-color: white;
         display: flex;
         flex-direction: column;
         grid-template-columns: auto;
-        margin: 15px;
-        padding: 15px;
+        margin: 5px;
+        padding: 5px;
     }
-    
+
     .container-left {
-        width: 90%;
-        margin: 20px 0px 20px 0px;
-        padding: 20px;
-        background-color: black;
-        height: auto;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-    }
-    
-    .container-div {
-        margin: 10px 0px 10px 0px;
-        padding: 10px 0px 10px 0px;
         width: 88%;
-        height: auto;
+        margin: 5px;
+        padding: 12px;
+        background-color: black;
+        height: 150px;
+        border-radius: 5px;
+    }
+
+    .container-div {
+        margin: 2px;
+        padding: 10px;
+        height: 120px;
         display: flex;
         flex-direction: column;
         position: absolute;
     }
-    
+
     .container-right {
         width: 88%;
-      margin-top: 50px;
-      padding-top: 30px;
-        height: auto;
+        margin: 5px;
+        padding: 12px;
+        height: 750px;
         background-color: black;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
     }
-    
+
     #btn-secretkey-generator {
         border-radius: 5px;
-        margin-top: 10px;
-        padding: 15px 20px 15px 20px;
+        margin-top: 5px;
+        padding: 10px 20px 10px 20px;
         font-size: 20px;
         font-weight: 400;
         color: white;
         background-color: #007bff;
-        position: absolute;
+
     }
-    
+
     #text-secretkey {
         border: 2px solid white;
-        padding: 15px 20px 15px 20px;
+        padding: 5px 20px 5px 20px;
         border-radius: 5px;
         background-color: #333333;
         margin-top: 20px;
         color: white;
-        position: absolute;
+
     }
-    
+
     #text-Input {
         border: 2px solid white;
         width: 140px;
@@ -223,31 +221,32 @@ h5 {
         background-color: #333333;
         margin-top: 5px;
         color: white;
-    
+
     }
-    
+
     h5 {
         color: white;
         font-size: 30px;
         font-weight: 400;
-        margin: 5px;
+        margin-top: 5px;
         padding: 5px 15px 5px 15px;
     }
-    
+
     .container-input {
         display: flex;
+        flex-direction: column;
     }
-    
+
     .grid-container {
         display: grid;
         grid-template-columns: auto auto;
         padding: 5px;
-        width: 50%;
+        width: 100%;
         margin: auto;
     }
-    
+
     .grid-item {
-    
+
         background-color: #333333;
         border: 1px solid rgba(0, 0, 0, 0.8);
         color: #fffcf8;
@@ -257,7 +256,7 @@ h5 {
         font-weight: 400;
         text-align: center;
     }
-    
+
     #btn-clear {
         border-radius: 5px;
         padding: 15px 25px 15px 25px;
