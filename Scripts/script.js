@@ -12,8 +12,16 @@ window.onload = function () {
 
             let textShowSecretKey = document.getElementById("text-secretkey");
 
-            console.log(textShowSecretKey);
-            document.getElementById("text-secretkey").innerText = randomNumber;
+            textShowSecretKey.setAttribute("value",randomNumber);
+
+            // console.log(textShowSecretKey);
+            // document.getElementById("text-secretkey").innerText = randomNumber;
+
+
+            // var x = document.createElement("INPUT");
+            // x.setAttribute("type", "text");
+            // x.setAttribute("value", "Hello World!");
+            // document.body.appendChild(x);
 
 
     });

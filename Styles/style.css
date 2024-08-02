@@ -40,7 +40,7 @@ body {
     width: 250px;
     height: 200px;
     margin: auto;
-    margin-top: 130px;
+    margin-top: 150px;
 }
 
 .container-right {
@@ -65,7 +65,7 @@ body {
 }
 
 #text-secretkey {
-    align-items: center;
+    text-align: center;
     border: 2px solid white;
     width: 140px;
     height: 30px;
@@ -75,6 +75,8 @@ body {
     background-color: #333333;
     margin-top: 5px;
     color: white;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 #text-Input {
@@ -135,6 +137,14 @@ h5 {
     font-weight: 400;
     text-align: center;
     margin: 5px;
+}
+
+#button-cancel {
+    background-color: #f0ad4e;
+}
+
+#button-submit {
+    background-color: #5ab45a;
 }
 
 #btn-clear {
@@ -208,7 +218,6 @@ h5 {
         background-color: #333333;
         margin-top: 20px;
         color: white;
-
     }
 
     #text-Input {
