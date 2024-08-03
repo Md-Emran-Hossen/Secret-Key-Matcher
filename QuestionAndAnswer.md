@@ -27,5 +27,5 @@ const, let, arrow functions, template literals, default parameters etc. are intr
 
 # 5.What are new features in CSS3?
  **Answer:**
- 
+ Box Shadow,	Text Shadow,	Gradients,	Transitions,	Animations,	Flexbox,	Grid Layout,	Media Queries, visual effects, and a wide range of font styles and colors.
   
