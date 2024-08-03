@@ -25,7 +25,7 @@
                 <br><br><br>
                 <div class="container-input">
                     <h5>Enter pin:</h5>
-                    <input type="text" id="text-Input">
+                    <input type="text" id="text-Input" onKeyPress="if(this.value.length==6) return false;">
                 </div>
                 <br>
                 <div class="grid-container">
@@ -44,7 +44,7 @@
 
                 </div>
                 <div>
-                    <button id="btn-clear">Clear</button>
+                    <button id="button-clear">Clear</button>
                 </div>
                 <div>
 
