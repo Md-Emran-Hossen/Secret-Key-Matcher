@@ -48,7 +48,7 @@ window.onload = function () {
         inputText = document.getElementById("text-Input").value;
         if (inputText === secretKeyInput) {
             showMessage.innerHTML = "<span style='font-size:20px;'> &#9989; </span>" + "Your Secret Key is matched";
-            showMessage.style.color="white";
+            showMessage.style.color="black";
             showMessage.style.fontSize = "25";
             showMessage.style.fontWeight= 600;
         } else {
