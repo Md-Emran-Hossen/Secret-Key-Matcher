@@ -19,7 +19,7 @@ const, let, arrow functions, template literals, default parameters etc. are intr
 # 4. In CSS what is the difference between display inline , display inline block and display block?
   **Answer:**
   # display inline:
-  Displays an element as an inline element (like <span>). Any height and width properties will have no effect. This is default.
+  Displays an element as an inline element (like span tag). Any height and width properties will have no effect. This is default.
   # display inline block: 
   Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values.
   # display block
