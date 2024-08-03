@@ -43,12 +43,20 @@ window.onload = function () {
 
     document.getElementById("button-submit").addEventListener('click', function () {
         let inputText = 0;
+        let showMessage = document.getElementById("showMessage");
         let secretKeyInput = document.getElementById("text-secretkey").value;
         inputText = document.getElementById("text-Input").value;
         if (inputText === secretKeyInput) {
-            alert("Matched");
+            showMessage.innerHTML = "<span style='font-size:20px;'> &#9989; </span>" + "Your Secret Key is matched";
+            showMessage.style.color="white";
+            showMessage.style.fontSize = "25";
+            showMessage.style.fontWeight= 600;
         } else {
-            alert("unmatched");
+            
+            showMessage.innerHTML = "<span style='font-size:20px;'> &#10060; </span>" + "Sorry, Secret Key is not matched";
+            showMessage.style.color="red";
+            showMessage.style.fontSize = "25";
+            showMessage.style.fontWeight= 600;
         }
     });
 
@@ -60,5 +68,6 @@ window.onload = function () {
             let output = arrayexit.slice(0, -1);
             document.getElementById("text-Input").value = output;
         }
-    })
+    });
+
 }
